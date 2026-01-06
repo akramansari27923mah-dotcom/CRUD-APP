@@ -83,7 +83,7 @@ const Drawer = ({ setDrawer, drawer }) => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, ease: 'easeInOut' }}
                     className={` fixed top-0 right-0 w-md bg-white shadow-2xl  p-10 h-screen`}>
-                    <h2 className='relative'>My Drawer</h2>
+                    <h2 className='relative'>New Student</h2>
 
                     <i
                         onClick={closeButton}
