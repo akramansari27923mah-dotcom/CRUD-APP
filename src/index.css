@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+*{
+   font-family: "Poppins", sans-serif;
+   font-size: medium;
+}
+
+p {
+  font-weight: 400;
+}
+h1, h2 {
+  font-weight: 600;
+}
+
+h1{
+    font-size: 36px; 
+}
+
+h2{
+   font-size: 28px;
+}
+h3{
+    font-size: 22px;
+}
+
+tbody tr:nth-child(even){
+  background-color: rgb(247, 244, 244);
+}
+
+tbody td{
+  padding: 10px 0;
+  border: 1px solid rgb(192, 189, 189);
+}
+
+thead th{
+  border: 1px solid rgb(177, 173, 173);
+}
+thead tr th{
+  background-color: rgb(122, 120, 120);
+  padding: 18px 0;
+  color: white;
+}
